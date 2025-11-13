@@ -1,0 +1,40 @@
+import React from 'react';
+import { ArrowDown } from 'lucide-react';
+
+export const HeroSection = () => (
+  <section id="hero" className="relative min-h-screen flex flex-col items-center justify-center p-4">
+    <div className="container max-w-4xl mx-auto text-center z-10 pt-20">
+      
+      <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-4">
+        <span className="inline-block animate-[fade-in_1s_ease-out_forwards_0.5s] opacity-0">
+          Hi, I'm{' '}
+        </span>
+        
+        <span className="text-primary inline-block animate-[fade-in_1s_ease-out_forwards_1s] opacity-0">
+          Michael C. Arias
+        </span>
+        <span className="text-foreground inline-block animate-[fade-in_1s_ease-out_forwards_1.5s] opacity-0 ml-2">
+          (A.K.A Bubba Kush)
+        </span>
+      </h1>
+      
+      <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 animate-[fade-in_1s_ease-out_forwards_2s] opacity-0">
+        Full-Stack, Database, & Mobile Developer
+        <br/>
+        I build modern, scalable web and mobile applications—combining creative design with robust code using technologies like React, Next.js, and Tailwind CSS.
+      </p>
+      
+      <a 
+        href="#projects" 
+        className="cosmic-button mx-auto w-fit px-8 py-3 animate-[fade-in_1s_ease-out_forwards_2.5s] opacity-0"
+      >
+        View My Work
+      </a>
+    </div>
+    
+    <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce-custom z-10 opacity-70">
+      <span className="text-sm text-muted-foreground mb-2">Scroll</span>
+      <ArrowDown className="h-5 w-5 text-primary" />
+    </div>
+  </section>
+);
