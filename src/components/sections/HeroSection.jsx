@@ -9,10 +9,6 @@ export const HeroSection = () => (
         <div className="animate-[fade-in_1s_ease-out_forwards_0.5s] opacity-0">
           Hi, I'm <span className="text-primary">Michael C. Arias</span>
         </div>
-        
-        <div className="text-3xl sm:text-5xl mt-4 animate-[fade-in_1s_ease-out_forwards_1.5s] opacity-0">
-          (A.K.A Bubba Kush)
-        </div>
       </h1>
       
       <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 animate-[fade-in_1s_ease-out_forwards_2s] opacity-0">
