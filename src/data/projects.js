@@ -1,29 +1,20 @@
 export const MOCK_PROJECTS = [
   {
     id: 1,
-    title: 'AI SaaS Landing Page',
-    description: 'A beautiful, responsive landing page for a generative AI service, emphasizing rapid user onboarding and engaging visuals.',
-    image: 'https://placehold.co/800x450/374151/FFFFFF?text=Project+1+Screenshot',
-    tags: ['React', 'Tailwind CSS', 'Vite', 'Frontend'],
+    title: 'BarkCard',
+    description: 'A cashless payment website with student ID integration for campus communities. Features RFID tap-to-pay system with NFC-enabled student ID cards, providing secure and streamlined transactions through a browser-based interface.',
+    image: '/barkcard-logo.jpg',
+    tags: ['React.js', 'React Native', 'Bootstrap', 'RFID/NFC', 'Payment System'],
     demoUrl: '#',
-    githubUrl: 'https://github.com/michaelpo1738/michael-arias-portfolio'
+    githubUrl: 'https://github.com/michaelpo1738/Barkcard'
   },
   {
     id: 2,
-    title: 'Real-time Chat App',
-    description: 'Developed a real-time messaging platform supporting private and group chats using a microservice architecture.',
-    image: 'https://placehold.co/800x450/374151/FFFFFF?text=Project+2+Screenshot',
-    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io'],
+    title: 'Student Attendance System',
+    description: 'A digital attendance management system that eliminates manual paper-based tracking. Enables professors to easily check and update student attendance status (present, late, or absent) with time-in/time-out tracking.',
+    image: '/attendance-system.jpg',
+    tags: ['JavaScript', 'PHP', 'MySQL', 'NetBeans'],
     demoUrl: '#',
-    githubUrl: 'https://github.com/michaelpo1738/michael-arias-portfolio'
-  },
-  {
-    id: 3,
-    title: 'E-commerce Checkout Flow',
-    description: 'Rebuilt a full-stack checkout process, resulting in a 15% increase in conversion rates via improved UX/UI.',
-    image: 'https://placehold.co/800x450/374151/FFFFFF?text=Project+3+Screenshot',
-    tags: ['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL'],
-    demoUrl: '#',
-    githubUrl: 'https://github.com/michaelpo1738/michael-arias-portfolio'
+    githubUrl: 'https://github.com/michaelpo1738/Student_Attendance'
   }
 ];

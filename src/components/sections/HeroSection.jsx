@@ -6,16 +6,13 @@ export const HeroSection = () => (
     <div className="container max-w-4xl mx-auto text-center z-10 pt-20">
       
       <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-4">
-        <span className="inline-block animate-[fade-in_1s_ease-out_forwards_0.5s] opacity-0">
-          Hi, I'm{' '}
-        </span>
+        <div className="animate-[fade-in_1s_ease-out_forwards_0.5s] opacity-0">
+          Hi, I'm <span className="text-primary">Michael C. Arias</span>
+        </div>
         
-        <span className="text-primary inline-block animate-[fade-in_1s_ease-out_forwards_1s] opacity-0">
-          Michael C. Arias
-        </span>
-        <span className="text-foreground inline-block animate-[fade-in_1s_ease-out_forwards_1.5s] opacity-0 ml-2">
+        <div className="text-3xl sm:text-5xl mt-4 animate-[fade-in_1s_ease-out_forwards_1.5s] opacity-0">
           (A.K.A Bubba Kush)
-        </span>
+        </div>
       </h1>
       
       <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 animate-[fade-in_1s_ease-out_forwards_2s] opacity-0">

@@ -80,7 +80,7 @@ export const ContactSection = () => {
                   <Linkedin size={24} />
                 </a>
                 
-                <a href="https://github.com/michaelpo1738/michael-arias-portfolio" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-primary transition-colors">
+                <a href="https://github.com/michaelpo1738" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-primary transition-colors">
                   <Github size={24} />
                 </a>
               </div>
@@ -98,7 +98,7 @@ export const ContactSection = () => {
                   id="name" 
                   name="name"
                   required 
-                  placeholder="Pedro Tech"
+                  placeholder=""
                   disabled={isSubmitting}
                   className="w-full p-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-50"
                 />
@@ -111,7 +111,7 @@ export const ContactSection = () => {
                   id="email" 
                   name="email"
                   required 
-                  placeholder="john@example.com"
+                  placeholder=""
                   disabled={isSubmitting}
                   className="w-full p-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-50"
                 />
@@ -124,7 +124,7 @@ export const ContactSection = () => {
                   name="message"
                   rows="5"
                   required 
-                  placeholder="Hello, I'd like to discuss..."
+                  placeholder=""
                   disabled={isSubmitting}
                   className="w-full p-3 rounded-md border border-input bg-background resize-none focus:outline-none focus:ring-2 focus:ring-primary disabled:opacity-50"
                 />
