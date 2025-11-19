@@ -1,5 +1,7 @@
 # e-Portfolio React
 
+Full-stack developer portfolio showcasing my projects and skills
+
 This is a React-based e-portfolio application designed to showcase personal projects, skills, and contact information. The application is structured to provide a seamless user experience with a modern design.
 
 ## Features
@@ -14,7 +16,8 @@ This is a React-based e-portfolio application designed to showcase personal proj
 - React
 - TypeScript
 - Vite
-- CSS
+- Tailwind CSS
+- Lucide Icons
 
 ## Getting Started
 
@@ -22,7 +25,7 @@ To get a local copy up and running, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/e-portfolio-react.git
+   git clone https://github.com/michaelpo1738/e-portfolio.git
    ```
 
 2. **Navigate to the project directory**:
@@ -40,7 +43,7 @@ To get a local copy up and running, follow these steps:
    npm run dev
    ```
 
-5. **Open your browser** and go to `http://localhost:3000` to see the application in action.
+5. **Open your browser** and go to `http://localhost:5173` to see the application in action.
 
 ## Folder Structure
 
