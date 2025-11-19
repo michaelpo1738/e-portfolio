@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { StarBackground } from './components/ui/StarBackground';
-import { ThemeToggle } from './components/ui/ThemeToggle';
+import { StarBackground } from './components/UI/StarBackground';
+import { ThemeToggle } from './components/UI/ThemeToggle';
 import { Navbar } from './components/layout/Navbar';
 import { HeroSection } from './components/sections/HeroSection';
 import { AboutSection } from './components/sections/AboutSection';
